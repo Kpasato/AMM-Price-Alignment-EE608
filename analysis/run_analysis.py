@@ -47,9 +47,9 @@ print(results_df.to_string())
 
 # Step 6: Target vs fitted plots for each optimization target
 target_labels = {
-    "sqrt_aapl":    "Target vs Fitted: sqrt(R_AAPL)  [w=0.5 AAPL / 0.5 Cash]",
-    "mixed_40_40":  "Target vs Fitted: 40% AAPL + 40% MSFT",
-    "simple_50_50": "Target vs Fitted: Simple 50/50 Blend",
+    "sqrt_aapl":    "Target vs Optimized AMM: 50% AAPL / 50% Cash",
+    "mixed_40_40":  "Target vs Optimized AMM: 40% AAPL / 40% MSFT / 20% Cash",
+    "simple_50_50": "Target vs Optimized AMM: Simple 50/50 AAPL-MSFT Blend",
 }
 
 for target_type, title in target_labels.items():
