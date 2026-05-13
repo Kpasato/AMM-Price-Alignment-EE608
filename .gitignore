@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs and cache
+outputs/
+*.csv
+*.png
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
